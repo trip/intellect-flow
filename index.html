@@ -4,25 +4,55 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="Description" content="Put your description here.">
+  <meta name="Description" content="Intellect Flow">
   <base href="/">
-
-  <style>
-    html,
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: sans-serif;
-      background-color: #ededed;
-    }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/styles.css">
   <title>intellect-flow</title>
 </head>
 
 <body>
-  <intellect-flow></intellect-flow>
+  <nav-bar>Intellect Flow</nav-bar>
+  
+  <div class="card-container">
+    <site-card course="For loop">
+      <img src="../assets/jsicon.png" alt="jscode" slot="img"/>
+      <p slot="information">
+        Open workspace<br/>
+        Includes workshop<br/>
+        Learn the for statement
+      </p>
+    </site-card>
+    <site-card course="If statement">
+      <img src="../assets/react.webp" alt="jscode" slot="img"/>
+      <p slot="information">
+        Open workspace<br/>
+        Includes workshop<br/>
+        Learn the if-statement
+      </p>
+    </site-card>
+    <site-card course="If statement">
+      <img src="../assets/react.webp" alt="jscode" slot="img"/>
+      <p slot="information">
+        Open workspace<br/>
+        Includes workshop<br/>
+        Learn the if-statement
+      </p>
+    </site-card>
+    <site-card course="If statement">
+      <img src="../assets/react.webp" alt="jscode" slot="img"/>
+      <p slot="information">
+        Open workspace<br/>
+        Includes workshop<br/>
+        Learn the if-statement
+      </p>
+    </site-card>
+  </div>
 
-  <script type="module" src="./src/intellect-flow.js"></script>
+  <script type="module" src="./src/nav-bar.js"></script>
+  <script type="module" src="./src/site-card.js"></script>
 </body>
 
 </html>
