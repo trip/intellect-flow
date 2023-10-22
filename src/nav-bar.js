@@ -19,6 +19,7 @@ class NavBar extends LitElement {
     h1 {
       font-size: 32px;
       margin-bottom: 16px;
+      display: inline-flex;
     }
 
     .text {

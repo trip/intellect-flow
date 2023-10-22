@@ -19,7 +19,7 @@ export class SiteCard extends LitElement {
       background-color: #fff;
       border: 1px solid #ccc;
       border-radius: 24px;
-      margin: 16px;
+      margin: 8px;
       padding: 16px;
       display: flex;
       flex-direction: column;
@@ -47,14 +47,12 @@ export class SiteCard extends LitElement {
 
     .btn-wrapper button:hover,
     .btn-wrapper button:focus {
-      color: #000;
-      background-color: #f0dc4e;
       transform: scale(1.2);
     }
     
     ::slotted(img) {
       background-color: #000000;
-      border-radius: 16px;
+      border-radius: 8px;
       height: 54px;
       width: 54px;
     }
