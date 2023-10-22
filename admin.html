@@ -14,7 +14,13 @@
 </head>
 
 <body>
-  <nav-bar>Intellect Flow</nav-bar>
+  <nav-bar>Admin Page</nav-bar>
+  
+  <a href="./index.html">user page</a>
+
+  <div class="btn-wrapper">
+    <button id="createcard">Create card</button>
+  </div>
 
   <div class="card-container">
     <site-card course="For loop">
@@ -24,6 +30,8 @@
         Includes workshop<br/>
         Learn the for statement
       </p>
+      <button slot="information" id="delcard">Delete card</button>
+      <button slot="information" id="modifytitle">Change name</button>
     </site-card>
     <site-card course="If statement">
       <img src="../assets/react.webp" alt="jscode" slot="img"/>
@@ -32,6 +40,8 @@
         Includes workshop<br/>
         Learn the if-statement
       </p>
+      <button slot="information" id="delcard">Delete card</button>
+      <button slot="information" id="modifytitle">Change name</button>
     </site-card>
     <site-card course="Else statement">
       <img src="../assets/java.jpeg" alt="jscode" slot="img"/>
@@ -40,11 +50,14 @@
         Includes workshop<br/>
         Learn the else-statement
       </p>
+      <button slot="information" id="delcard">Delete card</button>
+      <button slot="information" id="modifytitle">Change name</button>
     </site-card>
   </div>
 
   <script type="module" src="./src/nav-bar.js"></script>
   <script type="module" src="./src/site-card.js"></script>
+  <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
