@@ -1,7 +1,5 @@
 import { LitElement, html, css } from 'lit';
 
-const jsicon = new URL('../assets/jsicon.png', import.meta.url).href;
-
 export class SiteCard extends LitElement {
   static get properties() {
     return {
